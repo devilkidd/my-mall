@@ -1,7 +1,7 @@
 //引入webpack,用于插件CommonsChunkPlugin
 var webpack = require('webpack');
 //为output的path.resolve()方法,定义path
-var path = require('path');
+// var path = require('path');
 //引入css单独打包插件
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 //引入html模版处理插件
@@ -44,13 +44,13 @@ var config = {
 
     },
     output: {
-        path: path.resolve(__dirname, './dist/'),
+        path:__dirname+'/dist/',
+        // path: path.resolve(__dirname, '/dist/'),
         //另一种写法,比较异同
         // path: './dist',
-        //一行代码解决不能热更新问题
-        // publicPath: 'dev' === WEBPACK_ENV ? '/dist/' : '//s.happymall.com/mmall-fe/dist/',
+        //一行代码解决不能热更新问题        
         publicPath:'/dist/',
-        // publicPath:'./',
+        // publicPath: 'dev' === WEBPACK_ENV ? '/dist/' : '//s.happymall.com/mmall-fe/dist/',        
         //[name].js输出文件,命名为入口配置的名字
         filename: 'js/[name].js'
     },
