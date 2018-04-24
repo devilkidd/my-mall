@@ -533,7 +533,7 @@ webpackJsonp([4],{
 	                        categoryId:26,
 	                        name:'[测试]Apple iPhone 7 Plus (A1661) 128G手机',
 	                        subtitle:'iPhone 7，现更以lv色呈现。',
-	                        mainImage:"/dist/dist/resource/26.jpg",
+	                        mainImage:"/dist/resource/26.jpg",
 	                        price:6999,
 	                        status:1,
 	                        imageHost:'http://93027.com/my-mall',
@@ -546,7 +546,7 @@ webpackJsonp([4],{
 	                        mainImage:"/dist/resource/27.jpg",
 	                        price:1999,
 	                        status:1,
-	                        // imageHost:'/',
+	                        imageHost:'http://93027.com/my-mall',
 	                    },
 	                    {
 	                        id:28,
