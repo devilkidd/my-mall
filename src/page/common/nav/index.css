@@ -1,0 +1,29 @@
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+/* 用户部分 */
+.nav .user{
+    float: left;
+}
+.nav .user.login{
+    display: none;
+}
+.nav .user.login span:first-child{
+    cursor: auto;
+}
+.nav .user .link{
+    /* 左对齐,往右排列 */
+    margin-right: 5px;
+}
+/* 导航链接部分 */
+.nav .nav-list{
+    float: right;
+}
+.nav .nav-list .nav-item{
+    /* 将导航水平 */
+    display: inline-block;
+    /* 右对齐,往左排列 */
+    margin-left: 5px;
+}
