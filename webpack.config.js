@@ -49,7 +49,7 @@ var config = {
         //另一种写法,比较异同
         // path: './dist',
         //一行代码解决不能热更新问题        
-        publicPath:'/dist/',
+        publicPath:'../../dist/',
         // publicPath: 'dev' === WEBPACK_ENV ? '/dist/' : '//s.happymall.com/mmall-fe/dist/',        
         //[name].js输出文件,命名为入口配置的名字
         filename: 'js/[name].js'
@@ -65,7 +65,8 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('index', '首页')),
         new HtmlWebpackPlugin(getHtmlConfig('list', '商品列表页')),
         new HtmlWebpackPlugin(getHtmlConfig('detail', '商品详情页')),
-        new HtmlWebpackPlugin(getHtmlConfig('cart', '购物车')), new HtmlWebpackPlugin(getHtmlConfig('order-confirm', '订单确认页')),
+        new HtmlWebpackPlugin(getHtmlConfig('cart', '购物车')), 
+        new HtmlWebpackPlugin(getHtmlConfig('order-confirm', '订单确认页')),
         new HtmlWebpackPlugin(getHtmlConfig('user-login', '用户登录')),
         new HtmlWebpackPlugin(getHtmlConfig('result', '操作结果')),
         new HtmlWebpackPlugin(getHtmlConfig('user-register', '用户注册')),
